@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Search Weather</h1>
-        <Weather />
+        <div className="container">
+          <Weather />
+          <h1>City</h1>
+        </div>
       </header>
     </div>
   );
