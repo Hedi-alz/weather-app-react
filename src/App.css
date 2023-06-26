@@ -38,7 +38,7 @@
 }
 
 .container {
-  background-color: antiquewhite;
+  background-color: rgb(220, 245, 252);
   padding: 60px;
   border-color: black;
   border-width: thin;
@@ -46,10 +46,22 @@
   border-radius: 5px;
 }
 h1 {
-  font-size: 26px;
-  color: rgb(68, 63, 63);
+  font-size: 22px;
+  color: rgb(72, 0, 167);
   text-align: left;
+  font-family: "Times New Roman", Times, serif;
 }
-form {
-  padding-top: ;
+ul {
+  color: #272044;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+li {
+  list-style: none;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+  font-size: 20;
 }

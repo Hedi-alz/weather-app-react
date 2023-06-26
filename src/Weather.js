@@ -8,11 +8,9 @@ export default function Weather() {
 
   function showWeather(response) {
     //setLoaded(true);
-    console.log(response);
     setWeather({
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
-      Description: response.data.weather[0].description,
       humidity: response.data.main.humidity,
       icon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
@@ -38,9 +36,9 @@ export default function Weather() {
     return (
       <div>
         {form}
+        <p>{city}</p>
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
-          <li>Description: {weather.description}</li>
           <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
           <li>

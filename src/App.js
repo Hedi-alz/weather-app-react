@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import Weather from "./Weather";
+
 import "./App.css";
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
+          <h1>Search weather</h1>
           <Weather />
-          <h1>City</h1>
         </div>
       </header>
     </div>
