@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Weather from "./Weather";
 
 import "./App.css";
@@ -10,6 +9,16 @@ function App() {
         <div className="container">
           <h1>Search weather</h1>
           <Weather />
+        </div>
+        <div className="github">
+          <a
+            href="https://github.com/Hedi-alz/weather-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source coded
+          </a>{" "}
+          by Hedieh
         </div>
       </header>
     </div>
